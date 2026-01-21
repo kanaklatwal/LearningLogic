@@ -13,5 +13,6 @@ public class factorial {
         int num = sc.nextInt();
         int factorial = factorialNum(num);
         System.out.println("The factorial of "+num+ " is " + factorial);
+        sc.close();
     }
 }
