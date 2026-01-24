@@ -1,3 +1,4 @@
+package numbers;
 import java.util.*;
 public class factorial {
     public static int factorialNum(int n){
@@ -9,7 +10,7 @@ public class factorial {
     }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a nnumber");
+        System.out.print("Enter a number");
         int num = sc.nextInt();
         int factorial = factorialNum(num);
         System.out.println("The factorial of "+num+ " is " + factorial);

@@ -1,3 +1,4 @@
+package numbers;
 import java.util.Scanner;
 public class sumOfNumber {
     public static int SumNumber(int n){
