@@ -9,6 +9,7 @@ public class CheckSorted {
         }
         return true;
     }
+
     public static void main(String[] args) {
         int[] arr = {1, 2 , 15, 75 , 98};
         if(isSorted(arr)){
