@@ -7,6 +7,14 @@ public class basics{
         System.out.print(head.data+ " ");//5 3 9 8 16
         displayRecusrively(head.next);
     }
+    public static void insertAtEnd(Node head, int val){
+        Node temp = new Node(val);
+        Node t = head;
+        while(t.next!=null){
+            t=t.next;
+        }
+        t.next = temp;
+    }
     public static void displayRecusrivelyReverse(Node head ){
         if(head == null) return;
         displayRecusrivelyReverse(head.next);
@@ -54,5 +62,8 @@ public class basics{
         display(a);
         System.out.println();
         displayRecusrively(a);
+        System.out.println();
+        insertAtEnd(a, 87);
+        display(a);
      }
 }
