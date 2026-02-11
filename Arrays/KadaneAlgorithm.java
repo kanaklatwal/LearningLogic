@@ -9,5 +9,6 @@ public class KadaneAlgorithm {
             currentSum = Math.max(arr[i], currentSum + arr[i]);
             maxSum = Math.max(maxSum, currentSum);
         }
+        System.out.println("Maximum Subarray Sum = " + maxSum);
     }
 }
