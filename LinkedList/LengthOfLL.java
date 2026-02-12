@@ -1,4 +1,4 @@
-package LinkedList;
+//package LinkedList;
 
 public class LengthOfLL {
     public static int length(Node head){
