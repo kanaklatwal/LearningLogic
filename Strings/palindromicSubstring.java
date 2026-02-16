@@ -1,7 +1,7 @@
 // Given a string s, return the number of palindromic substrings in it.   input s="abc"  output: 3
 package Strings;
 
-public class palindromicSubsrting {
+class palindromicSubsrting {
     public static boolean isPalindrome(String s){
         int i = 0;
         int j = s.length()-1;
