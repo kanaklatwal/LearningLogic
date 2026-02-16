@@ -24,7 +24,7 @@ public class builder {
         str.delete(2,5);
         System.out.println(str);
         //indexOf -> return the index of the first occurence of the given string
-        System.out.println((str.indexOf(y)));
+        System.out.println((str.indexOf("y")));
         //substring(start, end) -> return the substring from start to end - 1
         System.out.println(str.substring(2,8));
     }
