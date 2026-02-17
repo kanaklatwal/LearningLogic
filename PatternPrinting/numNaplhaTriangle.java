@@ -1,20 +1,25 @@
 import java.util.Scanner;
 
-public class AlphabetTriangle {
+public class numNaplhaTriangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size: ");
         int size = sc.nextInt();
         for(int i=1; i<=size; i++){
             for(int j=1; j<=i; j++){
-                System.out.print((char)(j+64)+ " ");
+                if (i % 2 == 0) {
+                    System.out.print((char)(j+64)+" ");
+                }
+                else{
+                    System.out.print(j + " ");
+                }
             }
             System.out.println();
         }
     }
 }
-//A
+//1
 //A B
-//A B C
+//1 2 3
 //A B C D
-//A B C D E
+//1 2 3 4 5
