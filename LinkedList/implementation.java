@@ -36,7 +36,7 @@ public class implementation{
          void insertAtIndex(int idx, int val){
             Node t = new Node(val);
             Node temp = head;
-            if(idx==size()){
+            if(idx==size){
                 insertAtEnd(val);
                 return;
             }
@@ -44,7 +44,7 @@ public class implementation{
                 insertAtBeginning(val);
                 return;
             }
-            else if(idx<0||idx>size()){
+            else if(idx<0||idx>size){
                  System.out.println("Wrong index");
                  return;
             }          
@@ -57,7 +57,7 @@ public class implementation{
          }
          int getAt(int idx){
             Node temp = head;
-            if(idx<0||idx>size()){
+            if(idx<0||idx>size){
                 System.out.println("Wrong index");
                 return -1;
             }  
