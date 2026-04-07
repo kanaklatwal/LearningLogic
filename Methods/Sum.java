@@ -4,6 +4,7 @@ public class Sum{
     public static void main(String[] args){
         sum();
         int ans = sum2();
+        System.out.println("The answer is " + ans);
     }
     static void sum(){
         Scanner in = new Scanner(System.in);
