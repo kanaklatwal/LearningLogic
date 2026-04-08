@@ -5,7 +5,8 @@ public class StringExample {
         String message = greet();
         System.out.println(message);
     }
-    static String greet(){
+
+    static String greet() {
         String greeting = "how are you?";
         return greeting;
     }
