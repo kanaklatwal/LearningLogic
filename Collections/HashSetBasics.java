@@ -18,7 +18,7 @@ public class HashSetBasics {
         System.out.println(set1);// intersection of set1 and set2 = [3, 4]
         System.out.println(set2);
         System.out.println(set1.containsAll(set1));
-        
+
         Set<Integer> st = new HashSet<>();
         st.add(10);
         st.add(10);
