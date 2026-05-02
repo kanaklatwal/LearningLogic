@@ -14,14 +14,23 @@ public class Student1Main {
 
         System.out.println(students);
 
-        Collections.sort(students);// not applicable
+        //Collections.sort(students);// not applicable
         System.out.println(students);
 
-        Collections.sort(students, new Comparator<Student1>() {
-            @Override
-            public int compare(Student1 o1, Student1 o2) {
-                return o1.weight - o2.weight;
-            }
-        });
+     //   Collections.sort(students, new WeightComparator());
+//        Collections.sort(students, new Comparator<Student1>() {
+//            @Override
+//            public int compare(Student1 o1, Student1 o2) {
+//                return o1.weight - o2.weight;
+//            }
+//        });
+
+        Collections.sort(students, (o1, o2) ->  o1.weight - o2.weight);
+        System.out.println(students);
+
+        //comparing
+        //thencomparing
+        
+
     }
 }
