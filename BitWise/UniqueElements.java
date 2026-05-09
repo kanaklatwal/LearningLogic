@@ -11,6 +11,6 @@ public class UniqueElements {
 
     public static void main(String[] args) {
         int[] arr ={2, 2, 5, 8, 9, 5, 7, 8, 9};
-        System.out.println("Unique ELments: " + findUnique(arr));
+        System.out.println("Unique Elements: " + findUnique(arr));
     }
 }
