@@ -20,7 +20,7 @@ public class CountZeroAndOnes {
         int arr[] = {1, 0, 1, 1, 0, 1, 1};
         int ans[] = getZeroCount(arr);
         System.out.println("Zero Count = "+ ans[0]);
-        System.out.println("One Count = "+ ans[1]);
+        System.out.println("One Count = "+ ans[1+]);
     }
 
 }
