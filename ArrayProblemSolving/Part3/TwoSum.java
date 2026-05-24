@@ -18,6 +18,9 @@ public class TwoSum {
     public static void main(String[] args) {
         int[] arr= {2,7,4,3,6};
         int target = 10;
-        System.out.println(getTwoSum(arr, target));
+        int[] ans = getTwoSum(arr, target);
+        for(int i : ans){
+            System.out.print( i +" ");
+        }
     }
 }
