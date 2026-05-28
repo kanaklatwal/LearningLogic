@@ -1,4 +1,4 @@
-package ArrayProblemSolving.Part3;
+package ArrayProblemSolving.Sorting;
 
 public class BubbleSort {
     public static void getBubbleSort(int[] arr){  // Time complexity :-  O(n^2)
